@@ -1,0 +1,16 @@
+[package]
+name = "spawn-base64"  # Kütüphanenin crates.io'daki ismi
+version = "0.1.0"
+authors = ["nzengi <zenginureddin1@gmail.com"]
+edition = "2018"
+description = "A simple Base64 encoding/decoding library for WASM in Rust."
+license = "MIT"  # Projeniz için uygun lisansı belirtin
+repository = "https://github.com/kullanici/base64_wasm_lib"  # Projenizin GitHub linki (opsiyonel)
+readme = "README.md"  # Projeyi tanıtan bir README dosyası oluşturun
+
+[dependencies]
+wasm-bindgen = "0.2"
+base64 = "0.13"
+
+[lib]
+crate-type = ["cdylib", "rlib"]
