@@ -1,6 +1,6 @@
 [package]
 name = "spawn-base64"  # Kütüphanenin crates.io'daki ismi
-version = "0.1.0"
+version = "0.1.1"
 authors = ["nzengi <zenginureddin1@gmail.com"]
 edition = "2018"
 description = "A simple Base64 encoding/decoding library for WASM in Rust."
